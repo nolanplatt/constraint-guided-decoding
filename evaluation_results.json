@@ -1,0 +1,197 @@
+{
+  "config": {
+    "model": "microsoft/phi-2",
+    "quantization": "4-bit NF4",
+    "beam_width": 5,
+    "lambda": 1.0
+  },
+  "results": [
+    {
+      "id": 1,
+      "type": "multiplication",
+      "expected": "10",
+      "baseline_correct": true,
+      "baseline_violations": 2,
+      "baseline_time": 2.14,
+      "constrained_correct": true,
+      "constrained_violations": 0,
+      "constrained_time": 17.93,
+      "pruned": 10
+    },
+    {
+      "id": 2,
+      "type": "addition",
+      "expected": "10",
+      "baseline_correct": true,
+      "baseline_violations": 1,
+      "baseline_time": 2.46,
+      "constrained_correct": true,
+      "constrained_violations": 0,
+      "constrained_time": 12.76,
+      "pruned": 41
+    },
+    {
+      "id": 3,
+      "type": "multiplication",
+      "expected": "12",
+      "baseline_correct": true,
+      "baseline_violations": 2,
+      "baseline_time": 2.11,
+      "constrained_correct": true,
+      "constrained_violations": 0,
+      "constrained_time": 12.47,
+      "pruned": 10
+    },
+    {
+      "id": 4,
+      "type": "multiplication",
+      "expected": "20",
+      "baseline_correct": true,
+      "baseline_violations": 1,
+      "baseline_time": 2.11,
+      "constrained_correct": true,
+      "constrained_violations": 0,
+      "constrained_time": 12.73,
+      "pruned": 10
+    },
+    {
+      "id": 5,
+      "type": "addition",
+      "expected": "15",
+      "baseline_correct": true,
+      "baseline_violations": 0,
+      "baseline_time": 2.11,
+      "constrained_correct": true,
+      "constrained_violations": 0,
+      "constrained_time": 10.83,
+      "pruned": 10
+    },
+    {
+      "id": 6,
+      "type": "multiplication",
+      "expected": "24",
+      "baseline_correct": true,
+      "baseline_violations": 2,
+      "baseline_time": 2.27,
+      "constrained_correct": true,
+      "constrained_violations": 0,
+      "constrained_time": 12.24,
+      "pruned": 11
+    },
+    {
+      "id": 7,
+      "type": "addition",
+      "expected": "11",
+      "baseline_correct": true,
+      "baseline_violations": 1,
+      "baseline_time": 2.42,
+      "constrained_correct": true,
+      "constrained_violations": 0,
+      "constrained_time": 12.9,
+      "pruned": 21
+    },
+    {
+      "id": 8,
+      "type": "multiplication",
+      "expected": "28",
+      "baseline_correct": true,
+      "baseline_violations": 2,
+      "baseline_time": 2.09,
+      "constrained_correct": true,
+      "constrained_violations": 0,
+      "constrained_time": 12.69,
+      "pruned": 10
+    },
+    {
+      "id": 9,
+      "type": "addition",
+      "expected": "20",
+      "baseline_correct": true,
+      "baseline_violations": 0,
+      "baseline_time": 4.77,
+      "constrained_correct": true,
+      "constrained_violations": 0,
+      "constrained_time": 19.21,
+      "pruned": 11
+    },
+    {
+      "id": 10,
+      "type": "multiplication",
+      "expected": "15",
+      "baseline_correct": true,
+      "baseline_violations": 2,
+      "baseline_time": 3.58,
+      "constrained_correct": true,
+      "constrained_violations": 0,
+      "constrained_time": 19.31,
+      "pruned": 10
+    },
+    {
+      "id": 11,
+      "type": "addition",
+      "expected": "12",
+      "baseline_correct": true,
+      "baseline_violations": 1,
+      "baseline_time": 2.07,
+      "constrained_correct": true,
+      "constrained_violations": 0,
+      "constrained_time": 12.68,
+      "pruned": 21
+    },
+    {
+      "id": 12,
+      "type": "multiplication",
+      "expected": "18",
+      "baseline_correct": true,
+      "baseline_violations": 2,
+      "baseline_time": 2.12,
+      "constrained_correct": true,
+      "constrained_violations": 0,
+      "constrained_time": 12.46,
+      "pruned": 10
+    },
+    {
+      "id": 13,
+      "type": "addition",
+      "expected": "11",
+      "baseline_correct": true,
+      "baseline_violations": 2,
+      "baseline_time": 2.09,
+      "constrained_correct": true,
+      "constrained_violations": 0,
+      "constrained_time": 12.92,
+      "pruned": 32
+    },
+    {
+      "id": 14,
+      "type": "multiplication",
+      "expected": "30",
+      "baseline_correct": true,
+      "baseline_violations": 2,
+      "baseline_time": 2.53,
+      "constrained_correct": false,
+      "constrained_violations": 0,
+      "constrained_time": 12.42,
+      "pruned": 32
+    },
+    {
+      "id": 15,
+      "type": "addition",
+      "expected": "20",
+      "baseline_correct": true,
+      "baseline_violations": 2,
+      "baseline_time": 2.06,
+      "constrained_correct": true,
+      "constrained_violations": 0,
+      "constrained_time": 12.64,
+      "pruned": 55
+    }
+  ],
+  "summary": {
+    "total": 15,
+    "baseline_correct": 15,
+    "constrained_correct": 14,
+    "baseline_violations": 22,
+    "constrained_violations": 0
+  }
+}
